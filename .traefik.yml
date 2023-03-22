@@ -1,0 +1,11 @@
+displayName: HwMland test plugin - debud dump
+type: middleware
+
+import: github.com/hwmland/dbgdump
+
+summary: '[Test] Dump request and header'
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'
